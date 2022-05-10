@@ -40,8 +40,9 @@ function addInCartSumChange(sum, delta) {
     let newSum;
         newSum = oldSum + difference;
         let newSumText;
-        newSumText = // создайте переменную newSumText и присвойте ей результат склеивания переменной newSum и текста ' ₽'
-    // замените склеивание, используемое в newSum Text на шаблонную строку
+        newSumText = newSum + ' ₽'; 
+        newSumText = `${newSum} ₽`
+   
 
     // Конец решения задания №1.3.
 
