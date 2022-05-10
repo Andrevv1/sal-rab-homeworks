@@ -8,7 +8,7 @@ function addInCartMessage(title, price) {
         message = message + " ";
         message = message + "за";
         message = message + " ";
-        message = message + "productPrice"; 
+        message = message + "100"; 
         message = message + " ";
         message = message + "теперь в корзине!";
         console.log(message)
@@ -23,7 +23,7 @@ function addInCartCountChange(value) {
     let oldValue = value;
 
     let newValue;
-    newValue = oldValue;
+    newValue = 1;
     newValue = + 1;
 
     // Конец решения задания №1.2.
