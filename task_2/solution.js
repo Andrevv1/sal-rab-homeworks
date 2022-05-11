@@ -7,7 +7,7 @@ function calcShipping(sum, min, shipping) {
 
     let shippingSum; // создайте переменную shippingSum
         if (productsSum == 0 || productsSum >= freeShippingMinSum) { 
-            productsSum = 0;    
+            shippingSum = 0;    
         }else {
             shippingSum = shippingPrice;
         }
